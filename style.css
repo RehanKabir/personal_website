@@ -1,3 +1,22 @@
 .header {
     text-align: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.title_text {
+    padding-left: 50px;
+}
+
+.links {
+    display: flex;
+}
+
+button {
+    writing-mode: vertical-rl;
+    margin: 10px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px skyblue;
 }
